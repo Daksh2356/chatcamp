@@ -8,7 +8,7 @@ const ContactUs = () => {
     <div className="w-5/6 flex mx-auto my-0 rounded-md bg-white shadow-lg border border-slate-300 h-auto">
       <div className="w-1/2 object-cover relative">
         <Image
-          className="w-full h-full absolute top-0 z-0 rounded-md"
+          className="w-full h-full absolute top-0 z-0 rounded-md object-fill"
           quality={100}
           unoptimized
           src={BG1}

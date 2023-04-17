@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import halfBg from "../assets/halfBg.png";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import ContactUs from "@/components/ContactUs";
 
 const Home = () => {
   return (
@@ -74,6 +75,7 @@ const Home = () => {
         </div>
       </div>
       <Card />
+      <ContactUs/>
     </>
   );
 };
