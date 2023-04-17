@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import BG1 from "../assets/Images/forest_purple_gradient_4k.png";
-import BG2 from "../assets/Images/bg2.jpg";
+import BG1 from "../assets/forest_purple_gradient_4k.png";
 const ContactUs = () => {
   const [firstNametransition, setfirstNametransition] = useState(false);
   const [lastNametransition, setlastNametransition] = useState(false);
