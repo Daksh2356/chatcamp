@@ -18,6 +18,9 @@ module.exports = {
         black: "#000",
         white: "#fff",
       },
+      fontFamily: {
+        'ourFont': ['Hanken Grotesk', 'sans-serif'],
+      },
     },
   },
   plugins: [],
