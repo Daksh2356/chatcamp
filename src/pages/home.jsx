@@ -26,56 +26,61 @@ const Home = () => {
           </div>
         </div>
         <div className="bg-[#dedede] h-screen w-[50%]">
-          <Image src={halfBg} width={690} quality={100} unoptimized />
+          <Image
+            src={halfBg}
+            width={690}
+            quality={100}
+            unoptimized
+            alt="Picture"
+          />
         </div>
         <div className="sidenav absolute top-8 right-10">
           <ul>
             <li className="mb-3">
-            <a
-              class="group text-black transition-all duration-300 ease-in-out"
-              href="#"
-            >
-              <span class="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out font-ourFont font-black text-lg mb-5">
-                About
-              </span>
-            </a>
+              <a
+                className="group text-black transition-all duration-300 ease-in-out"
+                href="#"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out font-ourFont font-black text-lg mb-5">
+                  About
+                </span>
+              </a>
             </li>
             <li className="mb-3">
-            <a
-              class="group text-black transition-all duration-300 ease-in-out"
-              href="#"
-            >
-              <span class="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out font-ourFont font-black text-lg mb-5">
-                Contact
-              </span>
-            </a>
+              <a
+                className="group text-black transition-all duration-300 ease-in-out"
+                href="#"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out font-ourFont font-black text-lg mb-5">
+                  Contact
+                </span>
+              </a>
             </li>
             <li className="mb-3">
-            <a
-              class="group text-black transition-all duration-300 ease-in-out"
-              href="#"
-            >
-              <span class="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out font-ourFont font-black text-lg mb-5">
-                Login
-              </span>
-            </a>
+              <a
+                className="group text-black transition-all duration-300 ease-in-out"
+                href="#"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out font-ourFont font-black text-lg mb-5">
+                  Login
+                </span>
+              </a>
             </li>
             <li className="mb-3">
-            <a
-              class="group text-black transition-all duration-300 ease-in-out"
-              href="#"
-            >
-              <span class="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out font-ourFont font-black text-lg mb-5">
-                Home
-              </span>
-            </a>
+              <a
+                className="group text-black transition-all duration-300 ease-in-out"
+                href="#"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out font-ourFont font-black text-lg mb-5">
+                  Home
+                </span>
+              </a>
             </li>
-            
           </ul>
         </div>
       </div>
       <Card />
-      <ContactUs/>
+      <ContactUs />
     </>
   );
 };
