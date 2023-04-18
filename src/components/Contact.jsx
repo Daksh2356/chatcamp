@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import BG2 from "../assets/groupvector2.png";
-const ContactUs = () => {
+const Contact = () => {
   const [firstNametransition, setfirstNametransition] = useState(false);
   const [lastNametransition, setlastNametransition] = useState(false);
   const [emailtransition, setemailtransition] = useState(false);
@@ -190,4 +190,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Contact;
