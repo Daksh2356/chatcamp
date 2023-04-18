@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import halfBg from "../assets/halfBg.png";
 import { AiOutlineArrowDown } from "react-icons/ai";
-import ContactUs from "@/components/ContactUs";
+import ContactUs from "@/components/Contact";
 
 const Home = () => {
   return (
