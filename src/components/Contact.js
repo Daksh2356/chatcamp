@@ -103,7 +103,7 @@ const ContactUs = () => {
                 className={`outline-none border border-white p-3 rounded-xl w-full transition-all duration-300 ${
                   firstNametransition === true
                     ? "bg-white"
-                    : "bg-transparent text-white"
+                    : "backdrop-filter bg-gray-200  backdrop-blur-sm bg-opacity-10 text-white"
                 }`}
                 placeholder="First Name"
               ></input>
@@ -118,7 +118,7 @@ const ContactUs = () => {
                 className={`outline-none border border-white p-3 rounded-xl w-full transition-all duration-300 ${
                   lastNametransition === true
                     ? "bg-white"
-                    : "bg-transparent text-white"
+                    : "backdrop-filter bg-gray-200  backdrop-blur-sm bg-opacity-10 text-white"
                 }`}
                 placeholder="Last Name"
               ></input>
@@ -135,7 +135,7 @@ const ContactUs = () => {
                 className={`outline-none border border-white p-3 rounded-xl w-full transition-all duration-300 ${
                   emailtransition === true
                     ? "bg-white"
-                    : "bg-transparent text-white"
+                    : "backdrop-filter bg-gray-200  backdrop-blur-sm bg-opacity-10 text-white"
                 }`}
                 placeholder="Enter Your Email"
               ></input>
@@ -153,7 +153,7 @@ const ContactUs = () => {
                 className={`outline-none border border-white p-3 rounded-xl w-full transition-all duration-300 ${
                   phonetransition === true
                     ? "bg-white"
-                    : "bg-transparent text-white"
+                    : "backdrop-filter bg-gray-200  backdrop-blur-sm bg-opacity-10 text-white"
                 }`}
                 placeholder="Enter Your Phone Number"
               ></input>
@@ -170,7 +170,7 @@ const ContactUs = () => {
                 className={`outline-none border border-white p-3 rounded-xl w-full transition-all duration-300 ${
                   textareatransition === true
                     ? "bg-white"
-                    : "bg-transparent text-white"
+                    : "backdrop-filter bg-gray-200  backdrop-blur-sm bg-opacity-10 text-black"
                 }`}
               ></textarea>
             </div>
@@ -178,7 +178,7 @@ const ContactUs = () => {
               <button
               onClick={(e)=>{e.preventDefault();}}
                 type="buttom"
-                className="w-full bg-white  p-3"
+                className="w-full bg-white  p-3 active:bg-black active:text-white"
               >
                 Submit
               </button>
