@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import background from "../assets/background.png";
+import background from "../../assets/background.png";
 
 const Hero = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import BG2 from "../assets/groupvector2.png";
+import BG2 from "../../assets/groupvector2.png";
 const Contact = () => {
   const [firstNametransition, setfirstNametransition] = useState(false);
   const [lastNametransition, setlastNametransition] = useState(false);
@@ -160,7 +160,7 @@ const Contact = () => {
             </div>
             <div>
               <textarea
-              placeholder="Your Message"
+                placeholder="Your Message"
                 onFocus={() => {
                   settextareatransition(!textareatransition);
                 }}
@@ -174,13 +174,15 @@ const Contact = () => {
                 }`}
               ></textarea>
             </div>
-            <div>
+            <div className="">
               <button
-              onClick={(e)=>{e.preventDefault();}}
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
                 type="buttom"
-                className="w-full bg-white  p-3 active:bg-black active:text-white"
+                className="w-full bg-white before:content-['']  before:top-0 before:z-10 z-10   before:left-0 hover:text-white relative before:bg-black before:absolute before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full p-3 active:bg-black active:text-white"
               >
-                Submit
+                <span className="z-20 relative hover:z-40 hover:text-white">Submit</span>
               </button>
             </div>
           </form>

@@ -1,8 +1,8 @@
-import About from "@/components/About";
-import Card from "@/components/Card";
-import Contact from "@/components/Contact";
-import Courses from "@/components/Courses";
-import Hero from "@/components/Hero";
+import About from "@/components/home/About";
+import Card from "@/components/home/Card";
+import Contact from "@/components/home/Contact";
+import Courses from "@/components/home/Courses";
+import Hero from "@/components/home/Hero";
 import React from "react";
 
 
