@@ -7,7 +7,7 @@ const Hero = () => {
     <>
     <div className="bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200 h-[800px] w-full">
         <div className='absolute top-[90px] right-[100px]'>
-        <Image src={background} height={450} width={550}/>
+        <Image src={background} height={450} width={550} alt='HeroImage' />
         </div>
         <h1 className="w-72 font-ourFont font-black relative top-8 left-10 text-3xl">
             ChatCamp.
